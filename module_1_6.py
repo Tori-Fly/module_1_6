@@ -1,0 +1,16 @@
+my_dict = {'Kira': 2010, 'Leo': 2018, 'Tori': 1985, }
+print(my_dict)
+print(my_dict['Tori'])
+print(my_dict.get('Tom'))
+my_dict.update({'Ira': 2002, 'Kim': 2004})
+print(my_dict)
+print(my_dict.pop('Ira'))
+print(my_dict)
+my_set = {'Tim', 2, 3, 'Tom', 3, 2, 1}
+print(my_set)
+my_set.add(28.55)
+print(my_set)
+my_set.add('Oil')
+print(my_set)
+my_set.discard('Tim')
+print(my_set)
